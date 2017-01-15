@@ -1,10 +1,12 @@
 # ci/tasks/mvn_build.sh
 
-#!/bin/bash
+#!/bin/sh
 
 
 set -e -u -x
 
-cd source/
+ls
 
-which mvn
+#cd source
+
+#which mvn
