@@ -1,0 +1,8 @@
+# ci/resources.yml
+
+resources:
+- name: source-code
+  type: git
+  source:
+    uri: https://github.com/bluebossa63/guestbook2.0.git
+    branch: master

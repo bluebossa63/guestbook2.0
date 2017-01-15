@@ -1,0 +1,4 @@
+name: guestbook2.0
+memory: 128M
+random-route: true
+path: .
