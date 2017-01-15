@@ -1,0 +1,15 @@
+# ci/tasks/mvn_build.yml
+
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: maven
+    tag: '3.3-jdk-8'
+
+inputs:
+- name: source
+
+run:
+  path: ./ci/tasks/mvn_build.sh
