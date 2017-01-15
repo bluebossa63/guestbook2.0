@@ -6,4 +6,5 @@
 set -e -u -x
 
 cd source/
-mvn install
+
+which mvn
