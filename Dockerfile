@@ -1,2 +1,2 @@
 FROM airhacks/wildfly
-COPY ./target/guestbook.war ${DEPLOYMENT_DIR}
+COPY source/target/guestbook.war ${DEPLOYMENT_DIR}
