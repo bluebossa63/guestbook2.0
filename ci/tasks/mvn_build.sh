@@ -6,5 +6,4 @@ cd source
 
 mvn install
 
-mv target ../build
-cp Dockerfile ../build
+docker build -t shykes/myapp .
