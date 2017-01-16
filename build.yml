@@ -9,9 +9,11 @@ jobs:
     trigger: true
   - task: mvn_build
     file: source/ci/tasks/mvn_build.yml
+  - put: source
+    params: {file: source/target/guestbook.war}    
   - put: docker-hub
     params:
-      build: build-project
+      build: sourcce
       tag_as_latest: true
       
 resource_types:
