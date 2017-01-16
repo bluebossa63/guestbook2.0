@@ -9,18 +9,10 @@ jobs:
     trigger: true
   - task: mvn_build
     file: source/ci/tasks/mvn_build.yml
-  - put: source
-    params: {file: source/target/guestbook.war}    
   - put: docker-hub
     params:
       build: sourcce
       tag_as_latest: true
-      
-resource_types:
-- name: semver-gitskipssl
-  type: docker-image
-  source:
-    repository: bluebossa63/test
     
 resources:
 - name: source
