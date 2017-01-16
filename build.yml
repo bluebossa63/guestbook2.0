@@ -10,6 +10,8 @@ jobs:
   - task: mvn_build
     file: source/ci/tasks/mvn_build.yml
   - put: docker-hub
+    inputs:
+    - name: built-project  
     params:
       build: built-project
       tag_as_latest: true
