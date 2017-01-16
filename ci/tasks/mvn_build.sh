@@ -7,3 +7,4 @@ cd source
 mvn install
 
 mv target ../build
+cp Dockerfile ../build

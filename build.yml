@@ -11,7 +11,7 @@ jobs:
     file: source/ci/tasks/mvn_build.yml
   - put: docker-hub
     params:
-      build: source
+      build: built-project
       tag_as_latest: true
     
 resources:
