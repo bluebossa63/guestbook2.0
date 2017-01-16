@@ -6,4 +6,4 @@ cd source
 
 mvn install
 
-cp -r target build-project
+mv target ../build
