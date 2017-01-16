@@ -2,8 +2,6 @@
 
 set -e -u -x
 
-ls
+cd source
 
-#cd source
-
-#which mvn
+mvn install
