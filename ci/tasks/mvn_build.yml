@@ -12,4 +12,4 @@ inputs:
 - name: source
 
 run:
-  path: ./source/ci/tasks/mvn_build.sh
+  path: source/ci/tasks/mvn_build.sh
