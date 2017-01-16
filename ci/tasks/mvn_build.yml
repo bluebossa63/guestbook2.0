@@ -13,6 +13,7 @@ inputs:
 
 outputs:
 - name: built-project
+  path: source/target
 
 run:
   path: source/ci/tasks/mvn_build.sh

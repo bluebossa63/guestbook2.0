@@ -7,4 +7,3 @@ cd source
 mvn install
 
 cp -r target build-project
-cp Dockerfile build-project/Dockerfile
