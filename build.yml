@@ -12,6 +12,8 @@ jobs:
 #      bump: patch
   - task: mvn_build
     file: source/ci/tasks/mvn_build.yml
+  - task: docker_build
+    file: source/ci/tasks/docker_build.yml
 
 resource_types:
 - name: semver-gitskipssl
