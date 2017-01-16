@@ -11,5 +11,8 @@ image_resource:
 inputs:
 - name: source
 
+outputs:
+- name: built-project
+
 run:
   path: source/ci/tasks/mvn_build.sh

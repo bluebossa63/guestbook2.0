@@ -1,9 +1,0 @@
-# ci/tasks/docker_build.yml
-
-platform: linux
-
-inputs:
-- name: source
-
-run:
-  path: source/ci/tasks/docker_build.sh
