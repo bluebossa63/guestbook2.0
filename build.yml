@@ -23,6 +23,7 @@ resources:
     branch: master
     username: {{gitlab-username}}
     password: {{gitlab-password}}
+
     
 - name: docker-hub
   type: docker-image
